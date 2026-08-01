@@ -19,7 +19,7 @@ CASE
     WHEN MONTH(TO_TIMESTAMP(STARTED_AT)) in (6,7,8)
     THEN 'SUMMER'
     ELSE 'AUTUMN'
-END AS SEAOSN_OF_YEAT
+END AS STATION_OF_YEAR
 from 
 {{ source('demo', 'bike') }}
 )
