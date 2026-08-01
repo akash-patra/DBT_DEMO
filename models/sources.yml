@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: demo
+    database: demo_schema  
+    schema: jaffle_shop  
+    tables:
+      - name: bike
+      - name: weather
